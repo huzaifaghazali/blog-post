@@ -48,9 +48,33 @@ h6 {
 }
 
 code {
-   color: #e95400;
-   font-weight: bold;
- }
+  color: #e95400;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #863ae8;
+  height: 100vh;
+  color: white;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1,
+.hero p {
+  width: 75%;
+  max-width: 900px;
+  margin: 16px 0;
+}
+
+.hero hr {
+  width: 50%;
+  margin: 32px 0;
+}
 
 .content {
   max-width: 900px;
@@ -97,28 +121,28 @@ code {
 }
 
 footer {
-   background-color: #863ae8;
+  background-color: #863ae8;
 }
 
 footer ul {
-   list-style: none;
-   margin: 0 auto;
-   width: 100%;
-   max-width: 900px;
-   text-align: center;
-   padding: 28px 0;
+  list-style: none;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  padding: 28px 0;
 }
 
 footer ul li {
-   display: inline;
-   padding: 0 16px;
- }
- 
- footer li a {
-   text-decoration: none;
-   color: white;
- }
- 
- footer li a:hover {
-   text-decoration: underline;
- }
+  display: inline;
+  padding: 0 16px;
+}
+
+footer li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer li a:hover {
+  text-decoration: underline;
+}
